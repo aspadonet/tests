@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		CABA4AB427F1F9C50098D09A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AB327F1F9C50098D09A /* AppDelegate.swift */; };
 		CABA4AB627F1F9C50098D09A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AB527F1F9C50098D09A /* SceneDelegate.swift */; };
-		CABA4AB827F1F9C50098D09A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AB727F1F9C50098D09A /* ViewController.swift */; };
-		CABA4ABB27F1F9C50098D09A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABA4AB927F1F9C50098D09A /* Main.storyboard */; };
+		CABA4AB827F1F9C50098D09A /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AB727F1F9C50098D09A /* VerificationViewController.swift */; };
 		CABA4ABD27F1F9C90098D09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABA4ABC27F1F9C90098D09A /* Assets.xcassets */; };
 		CABA4AC027F1F9C90098D09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABA4ABE27F1F9C90098D09A /* LaunchScreen.storyboard */; };
+		CABA4ACD27F1FE310098D09A /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4ACC27F1FE310098D09A /* StatusLabel.swift */; };
+		CABA4AD027F200E90098D09A /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4ACF27F200E90098D09A /* UIStackView.swift */; };
+		CABA4AD327F20E9C0098D09A /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AD227F20E9C0098D09A /* EmailTextField.swift */; };
+		CABA4AD527F218A90098D09A /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AD427F218A90098D09A /* VerificationButton.swift */; };
+		CABA4AD827F21DE40098D09A /* EmailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AD727F21DE40098D09A /* EmailCollectionViewCell.swift */; };
+		CABA4ADA27F220050098D09A /* MainCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AD927F220050098D09A /* MainCollectionView.swift */; };
+		CABA4ADC27F31B6A0098D09A /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4ADB27F31B6A0098D09A /* VerificationModel.swift */; };
+		CABA4ADE27F352BF0098D09A /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4ADD27F352BF0098D09A /* String + Extensions.swift */; };
+		CABA4AE127F388ED0098D09A /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AE027F388ED0098D09A /* NetworkRequest.swift */; };
+		CABA4AE327F38AF60098D09A /* MailResponceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AE227F38AF60098D09A /* MailResponceModel.swift */; };
+		CABA4AE527F43C720098D09A /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AE427F43C720098D09A /* NetworkDataFetch.swift */; };
+		CABA4AE727F4440D0098D09A /* MailApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AE627F4440D0098D09A /* MailApiKey.swift */; };
+		CABA4AE927F447F70098D09A /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA4AE827F447F70098D09A /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CABA4AB027F1F9C50098D09A /* VerificationEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerificationEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABA4AB327F1F9C50098D09A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CABA4AB527F1F9C50098D09A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CABA4AB727F1F9C50098D09A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CABA4ABA27F1F9C50098D09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABA4AB727F1F9C50098D09A /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		CABA4ABC27F1F9C90098D09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABA4ABF27F1F9C90098D09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CABA4AC127F1F9C90098D09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABA4ACC27F1FE310098D09A /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabel.swift; sourceTree = "<group>"; };
+		CABA4ACF27F200E90098D09A /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		CABA4AD227F20E9C0098D09A /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		CABA4AD427F218A90098D09A /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
+		CABA4AD727F21DE40098D09A /* EmailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailCollectionViewCell.swift; sourceTree = "<group>"; };
+		CABA4AD927F220050098D09A /* MainCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionView.swift; sourceTree = "<group>"; };
+		CABA4ADB27F31B6A0098D09A /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
+		CABA4ADD27F352BF0098D09A /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		CABA4AE027F388ED0098D09A /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		CABA4AE227F38AF60098D09A /* MailResponceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailResponceModel.swift; sourceTree = "<group>"; };
+		CABA4AE427F43C720098D09A /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		CABA4AE627F4440D0098D09A /* MailApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailApiKey.swift; sourceTree = "<group>"; };
+		CABA4AE827F447F70098D09A /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				CABA4AB227F1F9C50098D09A /* VerificationEmail */,
+				CABA4ACE27F2009E0098D09A /* Extensions */,
 				CABA4AB127F1F9C50098D09A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +81,98 @@
 		CABA4AB227F1F9C50098D09A /* VerificationEmail */ = {
 			isa = PBXGroup;
 			children = (
-				CABA4AB327F1F9C50098D09A /* AppDelegate.swift */,
-				CABA4AB527F1F9C50098D09A /* SceneDelegate.swift */,
-				CABA4AB727F1F9C50098D09A /* ViewController.swift */,
-				CABA4AB927F1F9C50098D09A /* Main.storyboard */,
-				CABA4ABC27F1F9C90098D09A /* Assets.xcassets */,
-				CABA4ABE27F1F9C90098D09A /* LaunchScreen.storyboard */,
-				CABA4AC127F1F9C90098D09A /* Info.plist */,
+				CABA4ADF27F388C20098D09A /* Network */,
+				CABA4AC727F1F9EF0098D09A /* Application */,
+				CABA4AC827F1F9FC0098D09A /* Model */,
+				CABA4AC927F1FA030098D09A /* Views */,
+				CABA4ACA27F1FA0C0098D09A /* Controllers */,
+				CABA4ACB27F1FA1B0098D09A /* Resources */,
 			);
 			path = VerificationEmail;
+			sourceTree = "<group>";
+		};
+		CABA4AC727F1F9EF0098D09A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CABA4AB327F1F9C50098D09A /* AppDelegate.swift */,
+				CABA4AB527F1F9C50098D09A /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CABA4AC827F1F9FC0098D09A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CABA4ADB27F31B6A0098D09A /* VerificationModel.swift */,
+				CABA4AE227F38AF60098D09A /* MailResponceModel.swift */,
+				CABA4AE627F4440D0098D09A /* MailApiKey.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CABA4AC927F1FA030098D09A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CABA4AD627F21DB90098D09A /* Cell */,
+				CABA4ACC27F1FE310098D09A /* StatusLabel.swift */,
+				CABA4AD227F20E9C0098D09A /* EmailTextField.swift */,
+				CABA4AD427F218A90098D09A /* VerificationButton.swift */,
+				CABA4AD927F220050098D09A /* MainCollectionView.swift */,
+				CABA4AE827F447F70098D09A /* Alert.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CABA4ACA27F1FA0C0098D09A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CABA4AB727F1F9C50098D09A /* VerificationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CABA4ACB27F1FA1B0098D09A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CABA4ABE27F1F9C90098D09A /* LaunchScreen.storyboard */,
+				CABA4ABC27F1F9C90098D09A /* Assets.xcassets */,
+				CABA4AC127F1F9C90098D09A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CABA4ACE27F2009E0098D09A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CABA4AD127F200F20098D09A /* UIkit */,
+				CABA4ADD27F352BF0098D09A /* String + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CABA4AD127F200F20098D09A /* UIkit */ = {
+			isa = PBXGroup;
+			children = (
+				CABA4ACF27F200E90098D09A /* UIStackView.swift */,
+			);
+			name = UIkit;
+			sourceTree = "<group>";
+		};
+		CABA4AD627F21DB90098D09A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CABA4AD727F21DE40098D09A /* EmailCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CABA4ADF27F388C20098D09A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CABA4AE027F388ED0098D09A /* NetworkRequest.swift */,
+				CABA4AE427F43C720098D09A /* NetworkDataFetch.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +234,6 @@
 			files = (
 				CABA4AC027F1F9C90098D09A /* LaunchScreen.storyboard in Resources */,
 				CABA4ABD27F1F9C90098D09A /* Assets.xcassets in Resources */,
-				CABA4ABB27F1F9C50098D09A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +244,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CABA4AB827F1F9C50098D09A /* ViewController.swift in Sources */,
+				CABA4ADC27F31B6A0098D09A /* VerificationModel.swift in Sources */,
+				CABA4ACD27F1FE310098D09A /* StatusLabel.swift in Sources */,
+				CABA4AD527F218A90098D09A /* VerificationButton.swift in Sources */,
+				CABA4AB827F1F9C50098D09A /* VerificationViewController.swift in Sources */,
+				CABA4AD327F20E9C0098D09A /* EmailTextField.swift in Sources */,
+				CABA4ADE27F352BF0098D09A /* String + Extensions.swift in Sources */,
+				CABA4AD027F200E90098D09A /* UIStackView.swift in Sources */,
 				CABA4AB427F1F9C50098D09A /* AppDelegate.swift in Sources */,
+				CABA4AE327F38AF60098D09A /* MailResponceModel.swift in Sources */,
+				CABA4AE527F43C720098D09A /* NetworkDataFetch.swift in Sources */,
 				CABA4AB627F1F9C50098D09A /* SceneDelegate.swift in Sources */,
+				CABA4AD827F21DE40098D09A /* EmailCollectionViewCell.swift in Sources */,
+				CABA4AE127F388ED0098D09A /* NetworkRequest.swift in Sources */,
+				CABA4ADA27F220050098D09A /* MainCollectionView.swift in Sources */,
+				CABA4AE927F447F70098D09A /* Alert.swift in Sources */,
+				CABA4AE727F4440D0098D09A /* MailApiKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CABA4AB927F1F9C50098D09A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CABA4ABA27F1F9C50098D09A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CABA4ABE27F1F9C90098D09A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,7 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = VerificationEmail/Info.plist;
+				INFOPLIST_FILE = VerificationEmail/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = VerificationEmail/Info.plist;
+				INFOPLIST_FILE = VerificationEmail/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
